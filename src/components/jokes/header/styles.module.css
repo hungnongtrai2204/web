@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  background-color: #29b363;
+  width: 100%;
+  height: 250px;
+}
+
+.header__content {
+  margin: auto;
+}
+
+.header__title {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.header__description {
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 793px) {
+  .header__title {
+    font-size: 2.8rem;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+  }
+
+  .header__description {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .header__title {
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    font-weight: normal;
+  }
+
+  .header__description {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+  }
+}

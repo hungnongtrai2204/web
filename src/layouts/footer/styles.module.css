@@ -1,0 +1,56 @@
+/* Footer */
+.footer {
+  border-top: #ccc 2px solid;
+  padding: 15px 0 0;
+  bottom: 0;
+}
+
+.container {
+  width: 100%;
+  display: block;
+  padding: 0;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.about__rules,
+.about__copyright {
+  font-size: 12px;
+  text-align: center;
+  width: 70%;
+}
+
+.about__rules {
+  color: #969696;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+  /* .joke__votes .btn {
+    margin-left: 0;
+    margin-right: 0;
+  } */
+}
+
+/* Mobile */
+@media (max-width: 729px) {
+  /* Votes joke */
+  .about__rules,
+  .about__copyright {
+    font-size: 12px;
+    text-align: center;
+    width: 90%;
+  }
+}
